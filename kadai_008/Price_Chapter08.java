@@ -6,7 +6,7 @@ public class Price_Chapter08 {
 		int userAge = 30;      //年代
 		int serviceCost = 0;   //料金
 		
-        // 年代に応じた料金を取得
+		// 年代に応じた料金を取得
 		serviceCost = switch(userAge) {
 			case 10  -> 1000;
 			case 20  -> 2000;
@@ -17,11 +17,11 @@ public class Price_Chapter08 {
 			case 70  -> 4000;
 			case 80  -> 5000;
 			default -> 500;
-        };
-
-        // 年代と料金を表示
-        System.out.println("年代="+userAge);
-        System.out.println("料金="+serviceCost);
+		};
+		
+		// 年代と料金を表示
+		System.out.println("年代="+userAge);
+		System.out.println("料金="+serviceCost);
 	}
 
 }
