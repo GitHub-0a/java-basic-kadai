@@ -8,15 +8,15 @@ public class Price_Chapter08 {
 		
         // 年代に応じた料金を取得
 		serviceCost = switch(userAge) {
-            case 10  -> 1000;
-            case 20  -> 2000;
-            case 30  -> 3000;
-            case 40  -> 3000;
-            case 50  -> 4000;
-            case 60  -> 4000;
-            case 70  -> 4000;
-            case 80  -> 5000;
-            default -> 500;
+			case 10  -> 1000;
+			case 20  -> 2000;
+			case 30  -> 3000;
+			case 40  -> 3000;
+			case 50  -> 4000;
+			case 60  -> 4000;
+			case 70  -> 4000;
+			case 80  -> 5000;
+			default -> 500;
         };
 
         // 年代と料金を表示
