@@ -14,13 +14,12 @@ public class Prime_Chapter11 {
 		 for( int i = 2; i < 101; i++ ) {   //検査する値2～100
 			 
 			 for( int j = 2; j <= i; j++ ) {  //jをiまで確認
-				 //kekka = i % j;               //iはjで割り切れるか
-				 //System.out.println("kekka="+kekka);
+				 
 				 if (i % j == 0) kensu++;     //iがjで割り切れるとき+1
-			     if (kensu > 1) {             //割り切れる件数が複数時、素数でない
-			    	 haiRetsu[i] = false;     //素数でなときfalse設定
-			    	 break;                   //素数でなときforを抜ける
-			     }
+				 if (kensu > 1) {             //割り切れる件数が複数時、素数でない
+					 haiRetsu[i] = false;     //素数でなときfalse設定
+					 break;                   //素数でなときforを抜ける
+				 }
 			 }
 			 
 			 //boolean配列iがtrueのままとき、素数
