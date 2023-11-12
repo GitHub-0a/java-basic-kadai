@@ -5,15 +5,11 @@ public class Prime_Chapter11 {
 	public static void main(String[] args) {
 		
 		boolean[] haiRetsu  = new boolean[101]; 
-		//int kekka;
 		int kensu = 0;  //割り切れる件数　初期値
 		 
-		 for( int i = 0; i < 101; i++ ) {
+		for( int i = 0; i < 101; i++ ) {
 			 haiRetsu[i] = true;  //boolean配列をtrueで初期化
-			}
-		 
-		 // 変数i＝2～100の範囲で繰り返す
-		 
+		}
 		 
 		 for( int i = 2; i < 101; i++ ) {   //検査する値2～100
 			 
