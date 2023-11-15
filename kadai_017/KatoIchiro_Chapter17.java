@@ -11,7 +11,7 @@ public class KatoIchiro_Chapter17 extends Kato_Chapter17 {
 		   System.out.println("名前は"+familyName+givenName+"です");
 	   }
 	   
-	   //個別紹介を出力を実行
+	   //個別紹介出力を実行
 	   public void execIntroduce() {
 		   eachIntroduce();
 	   }
