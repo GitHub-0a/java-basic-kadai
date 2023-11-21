@@ -2,7 +2,7 @@ package kadai_017;
 
 public class KatoHanako_Chapter17 extends Kato_Chapter17 {
 
-	   //個別紹介を実行する
+	   //紹介を実行する
 	   public void execIntroduce() {
 		   setGivenName();
 		   commonIntroduce();
