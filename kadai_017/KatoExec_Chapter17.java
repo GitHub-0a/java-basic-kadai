@@ -9,13 +9,10 @@ public class KatoExec_Chapter17 {
 		KatoIchiro_Chapter17 katoIchiro = new KatoIchiro_Chapter17();
 		KatoHanako_Chapter17 katoHanako = new KatoHanako_Chapter17();
 				
-		//個別紹介を出力する
 		katoTaro.execIntroduce();
 		
-		//個別紹介を出力する
 		katoIchiro.execIntroduce();
 		
-		//個別紹介を出力する
 		katoHanako.execIntroduce();
 		
 	}
