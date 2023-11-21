@@ -19,9 +19,4 @@ public class KatoTaro_Chapter17 extends Kato_Chapter17 {
 		   System.out.println("");
 	   }
 	   
-	   public void commonIntroduce(){
-		   System.out.println("名前は加藤"+givenName+"です");
-		   System.out.println("住所は"+address+"です");
-	   }
-	   
 }

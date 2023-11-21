@@ -18,10 +18,5 @@ public class KatoIchiro_Chapter17 extends Kato_Chapter17 {
 		   System.out.println("好きな食べ物はリンゴです");
 		   System.out.println("");
 	   }
-	   
-	   public void commonIntroduce(){
-		   System.out.println("名前は加藤"+givenName+"です");
-		   System.out.println("住所は"+address+"です");
-	   }
 	
 }
