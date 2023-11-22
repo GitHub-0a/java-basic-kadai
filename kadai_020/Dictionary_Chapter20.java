@@ -19,12 +19,6 @@ public class Dictionary_Chapter20 {
 	    fMap.put("muscat","マスカット");
 	    fMap.put("cherry","さくらんぼ");
 	    
-	    //System.out.println("apple1の意味は" + fMap.get("apple1"));
-	    //System.out.println("apple1の意味は" + fMap.get("banana"));
-	    //System.out.println("apple1の意味は" + fMap.get("grape"));
-	    //System.out.println("apple1の意味は" + fMap.get("orange"));
-	    
-	    
 	      ArrayList<String> fList = new ArrayList<String>();
 	      fList.add("apple1");
 	      fList.add("banana");
