@@ -1,12 +1,11 @@
 package kadai_020;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Dictionary_Chapter20 {
 	
-    
-	public void Dictionary_Chapter20e(){
+	public void Dictionary_Chapter20(String innlist[]) {
+		
 		HashMap<String,String> fMap = new HashMap<String,String>();
 	    fMap.put("apple1","りんご");
 	    fMap.put("peach","桃");
@@ -19,13 +18,8 @@ public class Dictionary_Chapter20 {
 	    fMap.put("muscat","マスカット");
 	    fMap.put("cherry","さくらんぼ");
 	    
-	      ArrayList<String> fList = new ArrayList<String>();
-	      fList.add("apple1");
-	      fList.add("banana");
-	      fList.add("grape");
-	      fList.add("orange");
-	      for(int i = 0; i < fList.size(); i++) {
-               String getlist = fList.get(i);
+	     for(int i = 0; i < innlist.length; i++) {
+               String getlist = innlist[i];
                String getmap = fMap.get(getlist);
                if (getmap != null) {
 	               System.out.println(getlist+"の意味は" + getmap);
@@ -33,8 +27,8 @@ public class Dictionary_Chapter20 {
                else { 
                    System.out.println(getlist+"は辞書に存在しません");
                }
-	      }
-	    
+	     }
+		
 	}
 
 }
