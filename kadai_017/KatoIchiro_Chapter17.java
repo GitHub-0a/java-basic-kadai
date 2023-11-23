@@ -4,7 +4,6 @@ public class KatoIchiro_Chapter17 extends Kato_Chapter17 {
 
 	   //紹介を実行する
 	   public void execIntroduce() {
-		   setGivenName();
 		   commonIntroduce();
 		   eachIntroduce();
 	   }

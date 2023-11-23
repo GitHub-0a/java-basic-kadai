@@ -8,11 +8,14 @@ public class KatoExec_Chapter17 {
 		KatoTaro_Chapter17   katoTaro   = new KatoTaro_Chapter17();
 		KatoIchiro_Chapter17 katoIchiro = new KatoIchiro_Chapter17();
 		KatoHanako_Chapter17 katoHanako = new KatoHanako_Chapter17();
-				
+		
+		katoTaro.setGivenName();
 		katoTaro.execIntroduce();
 		
+		katoIchiro.setGivenName();
 		katoIchiro.execIntroduce();
 		
+		katoHanako.setGivenName();
 		katoHanako.execIntroduce();
 		
 	}
