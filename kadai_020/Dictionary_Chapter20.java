@@ -4,10 +4,10 @@ import java.util.HashMap;
 
 public class Dictionary_Chapter20 {
 	
-	public void Dictionary_Chapter20(String innlist[]) {
+	public void Refer(String innlist[]) {
 		
 		HashMap<String,String> fMap = new HashMap<String,String>();
-		fMap.put("apple1","りんご");
+		fMap.put("apple","りんご");
 		fMap.put("peach","桃");
 		fMap.put("banana","バナナ");
 		fMap.put("lemon","レモン");
