@@ -36,13 +36,12 @@ public class Jyanken_Chapter24 {
 		String getmap_you = jMap.get(bbb);
 		System.out.println("自分の手は"+getmap_me+"、対戦相手の手は"+getmap_you);
 		
-		boolean ccc = aaa.equals(bbb);
-		if (ccc == true) {
-			System.out.println("あいこです");
+		if (aaa.equals(bbb)) {
+			System.out.println("あいこです"); //getmap_me.equals("グー")
 		}
-		else if ((getmap_me == "グー" && getmap_you == "チョキ") ||
-			(getmap_me == "チョキ" && getmap_you == "パー") ||
-			(getmap_me == "パー" && getmap_you =="グー")) {
+		else if ((getmap_me.equals("グー") && getmap_you.equals("チョキ")) ||
+			(getmap_me.equals("チョキ") && getmap_you.equals("パー")) ||
+			(getmap_me.equals("パー") && getmap_you.equals("グー"))) {
 			System.out.println("自分の勝ちです");
 		}
 		else {
