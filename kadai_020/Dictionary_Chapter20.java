@@ -1,4 +1,4 @@
-package kadai_020;
+package kadai_020; 
 
 import java.util.HashMap;
 
