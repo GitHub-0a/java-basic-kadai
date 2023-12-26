@@ -1,12 +1,6 @@
 package kadai_017; 
 
 public class KatoTaro_Chapter17 extends Kato_Chapter17 {
-	
-	   //紹介を実行する
-	   public void execIntroduce() {
-		   commonIntroduce();
-		   eachIntroduce();
-	   }
 	   
 	   public void setGivenName() {
 		   givenName = "太郎";
