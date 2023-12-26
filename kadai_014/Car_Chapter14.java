@@ -15,7 +15,7 @@ public class Car_Chapter14 {
     // 【メソッド】ギアの値により速度を変える
     // 引数 afterGear：ギア変更値
     public void gearChange( final int afterGear ) {
-        //System.out.println("変更ギア="+ afterGear );
+        System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
         
         //ギア変更
         this.gear = afterGear;
@@ -35,7 +35,7 @@ public class Car_Chapter14 {
     // 引数 なし
     public void run() {
     	
-    	System.out.println( "変更後の速度は"+this.speed+"kmです" );
+    	System.out.println( "速度は時速"+this.speed+"kmです" );
 
 	}
     
