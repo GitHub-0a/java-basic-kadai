@@ -2,7 +2,7 @@ package kadai_017;
 
 abstract public class Kato_Chapter17 {
 	//姓フィールド
-	public String familyName = "加藤";
+	public String familyName = "加藤"; 
 	//名フィールド
 	public String givenName;
 	//住所フィールド
