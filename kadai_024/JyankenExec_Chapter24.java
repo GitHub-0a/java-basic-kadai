@@ -6,12 +6,12 @@ public class JyankenExec_Chapter24 {
 		//オブジェクトを作る
 		Jyanken_Chapter24 jyanken = new Jyanken_Chapter24();
 		
-		String aaa = jyanken.getMyChoice();
+		String me = jyanken.getMyChoice();
 		
-		String bbb = jyanken.getRandom();
-
-		jyanken.playGame(aaa,bbb);
-
+		if (me != "x") {
+			String you = jyanken.getRandom();
+			jyanken.playGame(me,you);
+		}
 	}
 
 }
